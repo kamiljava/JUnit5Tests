@@ -1,10 +1,11 @@
+package calculator;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import test.Calculator;
 
 public class FirstTest {
     //Dodajemy opis co ma sie wydarzyć i jaki chcemy uzyskać wynik. Najlepiej zacząć od wyniku
@@ -12,7 +13,7 @@ public class FirstTest {
     @DisplayName(
             "result 5, when sum 4 and 1"
     )
-//adnotacja informująca o tym że to będzie test i uruchamiająca testy
+//adnotacja informująca o tym że to będzie calculator i uruchamiająca testy
     @Test
     void test1() throws Exception {
 
@@ -28,7 +29,7 @@ public class FirstTest {
 
     }
 
-    //zrobiony test który nie przejdzie //////////////////////////////////////////////////////////////////////////////////////
+    //zrobiony calculator który nie przejdzie //////////////////////////////////////////////////////////////////////////////////////
     @DisplayName(
             "result 5, when sum x and y"
     )

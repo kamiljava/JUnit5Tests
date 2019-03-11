@@ -6,8 +6,12 @@
 
     <groupId>pl.kamil</groupId>
     <artifactId>JUnit5Tests</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <version>1.0</version>
+    <properties>
+        <project.build>
+            UTF-8
+        </project.build>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
