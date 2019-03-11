@@ -9,6 +9,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class KataCalculatorTest {
 
+    //https://osherove.com/tdd-kata-1
+
     @DisplayName(
             "We want sum two number if numbers are string"
     )
@@ -28,8 +30,6 @@ public class KataCalculatorTest {
 
         //then
         assertThat(sum).isEqualTo(sumNumbers);
-        System.out.println(sumNumbers);
-
     }
 
 }
