@@ -1,4 +1,4 @@
-package calculator;
+package katacalculator;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

@@ -22,6 +22,7 @@ public class KataCalculatorTest {
             " '1,2',3 ",
             " '1\n3,2',6 "
     })
+
     void test0(String numbers, int sumNumbers) throws Exception {
         //given
 
